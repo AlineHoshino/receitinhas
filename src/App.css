@@ -1,0 +1,291 @@
+body {
+  background-color: #9e0104;
+  height: 100%;
+  overflow: auto;
+}
+
+.imageFood {
+  height: 10vh;
+  width: 10vw;
+}
+
+.footer {
+  background-color: #e62e31;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+.footer img {
+  filter: invert(100%);
+}
+
+.header {
+  background-color: #e62e31;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+.header-2 {
+  background-color: #e62e31;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+.header-2 h2 {
+  margin-right: 100px;
+}
+
+.profile-icon {
+  filter: invert(100%);
+  margin-top: 20px;
+}
+
+.lupa {
+  background-color: #e62e31;
+  border: none;
+}
+
+.lupa img {
+  filter: invert(100%);
+}
+
+.title {
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.iniciar {
+  border-radius: 10%;
+  bottom: 0;
+  color: black;
+  display: flex;
+  font-size: x-large;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+.main {
+  padding-top: 100px;
+}
+
+.recipes {
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.recomendation-card {
+  flex: none;
+  height: 150px;
+  margin-right: 10%;
+  scroll-snap-align: start;
+  width: 40%;
+}
+
+.searchInput {
+  margin-top: 80px;
+}
+
+.fav {
+  margin: 10px;
+}
+
+.line-thru {
+  text-decoration: line-through;
+}
+
+.login-box {
+  align-items: center;
+  background-color: #e62e31;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px rgba(224, 218, 218, 0.671);
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  height: 80%;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.h2 {
+  filter: invert(100%);
+  height: 130px;
+  margin: auto;
+  margin-bottom: -20px;
+  width: 330px;
+}
+
+.login-box input {
+  display: flex;
+  font-size: large;
+  margin: 10px;
+}
+
+.button-login {
+  background-color: #0f9935;
+  border-radius: 10%;
+  box-shadow: whitesmoke;
+  color: whitesmoke;
+  font-size: large;
+  height: 30px;
+  margin: 10px;
+  width: 150px;
+}
+
+.chapeu-img {
+  display: flex;
+  filter: invert(100%);
+  height: 70%;
+  margin: auto;
+  margin-top: 8%;
+  width: 70%;
+}
+
+.filter-btn button {
+  background-color: whitesmoke;
+  border-radius: 10%;
+  box-shadow: whitesmoke;
+  color: black;
+  font-size: x-large;
+  justify-content: space-evenly;
+}
+
+.filter-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+
+.create-card {
+  align-items: center;
+  display: flex;
+
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  margin-top: 20px;
+
+  /* background-color: darkgoldenrod; */
+  padding: 1px;
+  text-decoration: none;
+  width: 48%;
+}
+
+.card p {
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+
+.card img {
+  border-radius: 5%;
+  height: 80%;
+  width: 90%;
+}
+
+.recipe-details {
+  align-items: center;
+  color: whitesmoke;
+  margin: auto;
+}
+
+.recipe-details button {
+  background-color: white;
+}
+
+.recipe-details img {
+  height: 10%;
+  width: 100%;
+}
+
+.carrosel-sec img {
+  width: 90%;
+}
+
+.process {
+  color: whitesmoke;
+}
+
+.process button {
+  color: black;
+}
+
+.process img {
+  height: 10%;
+  width: 100%;
+}
+
+.explore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 200px;
+}
+
+.explore button {
+  border-radius: 10px;
+  font-size: large;
+  height: 50px;
+  width: 200px;
+}
+
+
+.profile {
+  align-items: center;
+  color: whitesmoke;
+
+  /* background-color: #0f9935; */
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.profile button {
+  font-size: large;
+  height: 30px;
+  margin: 2px;
+  width: 200px;
+}
+
+.email {
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+.fav-recipes-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 100px;
+  width: 70%;
+}
+
+.fav-recipes-btn button {
+  font-size: large;
+}
+
+.fav-share {
+  margin-top: -50px;
+}
